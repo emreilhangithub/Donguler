@@ -27,5 +27,15 @@ namespace Donguler
 
 
         }
+       
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int toplam = 0;
+            for (int i = 1; i < 11; i++)
+            {
+                toplam = toplam + i;
+            }
+            label1.Text = toplam.ToString();
+        }
     }
 }
