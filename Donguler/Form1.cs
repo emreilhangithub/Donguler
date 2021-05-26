@@ -21,7 +21,7 @@ namespace Donguler
         {
             for (int i = 0; i < 10; i++)
             {
-                listBox1.Items.Add("Merhaba Ankara");
+                listBox1.Items.Add(i + " Merhaba Ankara ");
             }
             
 
