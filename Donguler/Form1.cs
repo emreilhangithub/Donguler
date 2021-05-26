@@ -19,7 +19,7 @@ namespace Donguler
 
         private void button1_Click(object sender, EventArgs e)
         {
-            for (int i = 1; i < 11; i++)
+            for (int i = 1; i < 11; i+=2)
             {
                 listBox1.Items.Add(i);
             }
