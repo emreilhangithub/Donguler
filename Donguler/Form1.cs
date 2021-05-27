@@ -47,5 +47,16 @@ namespace Donguler
                 label3.Text = toplam.ToString();
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                if(i% 3 == 0)
+                        {
+                    listBox2.Items.Add(i);     
+                        }
+            }
+        }
     }
 }
