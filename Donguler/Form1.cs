@@ -67,5 +67,19 @@ namespace Donguler
                 listBox3.Items.Add(i);
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int sayi = Convert.ToInt16(textBox2.Text);
+
+            for (int i = 1; i <= sayi; i++)
+            {
+                if( sayi% i == 0)
+                {
+                listBox4.Items.Add(i);
+                }
+            }
+
+        }
     }
 }
