@@ -41,6 +41,9 @@ namespace Donguler
             this.label3 = new System.Windows.Forms.Label();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -154,12 +157,41 @@ namespace Donguler
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(5, 499);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(106, 47);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // listBox3
+            // 
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 20;
+            this.listBox3.Location = new System.Drawing.Point(135, 451);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(144, 84);
+            this.listBox3.TabIndex = 11;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(11, 451);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 26);
+            this.textBox1.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(881, 558);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.listBox3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.label3);
@@ -193,6 +225,9 @@ namespace Donguler
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
