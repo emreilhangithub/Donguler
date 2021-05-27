@@ -68,18 +68,30 @@ namespace Donguler
             }
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button6_Click_1(object sender, EventArgs e)
         {
             int sayi = Convert.ToInt16(textBox2.Text);
 
             for (int i = 1; i <= sayi; i++)
             {
-                if( sayi% i == 0)
+                if (sayi % i == 0)
                 {
-                listBox4.Items.Add(i);
+                    listBox4.Items.Add(i);
                 }
             }
+        }
 
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            int sayi = Convert.ToInt16(textBox3.Text);
+            int faktoriel = 1; 
+            //burada 0 verirsek 0 etkisiz eleman o nedenle 1 ver 
+
+            for (int i = 1; i <= sayi; i++)
+            {
+                faktoriel = faktoriel * i;
+                label4.Text = faktoriel.ToString();
+            }
         }
     }
 }

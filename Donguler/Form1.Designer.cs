@@ -47,6 +47,9 @@ namespace Donguler
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.listBox4 = new System.Windows.Forms.ListBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -188,29 +191,55 @@ namespace Donguler
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(352, 57);
+            this.textBox2.Location = new System.Drawing.Point(387, 69);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 26);
             this.textBox2.TabIndex = 16;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(346, 105);
+            this.button6.Location = new System.Drawing.Point(381, 117);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(106, 47);
             this.button6.TabIndex = 15;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // listBox4
             // 
             this.listBox4.FormattingEnabled = true;
             this.listBox4.ItemHeight = 20;
-            this.listBox4.Location = new System.Drawing.Point(476, 57);
+            this.listBox4.Location = new System.Drawing.Point(511, 69);
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(144, 84);
             this.listBox4.TabIndex = 14;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(390, 266);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 26);
+            this.textBox3.TabIndex = 17;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(522, 256);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(106, 47);
+            this.button7.TabIndex = 18;
+            this.button7.Text = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(646, 272);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 20);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Toplam ";
             // 
             // Form1
             // 
@@ -218,6 +247,9 @@ namespace Donguler
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(881, 558);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.listBox4);
@@ -263,6 +295,9 @@ namespace Donguler
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label4;
     }
 }
 
